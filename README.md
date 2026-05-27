@@ -1,6 +1,7 @@
 # Book Your Counselling - Playwright Automation
+
 ## Overview
-This project contains End-to-End (E2E) automation testing for the Book Your Counselling website using Playwright and TypeScript.
+This project contains End-to-End (E2E) automation testing for the Book Your Counselling website using Playwright.
 
 ### What the framework tests
 - Search functionality
@@ -11,6 +12,7 @@ This project contains End-to-End (E2E) automation testing for the Book Your Coun
 
 ### Tech Stack Used
 - Playwright
+- Node.js
 - Git
 - GitHub
 
@@ -21,6 +23,8 @@ This project contains End-to-End (E2E) automation testing for the Book Your Coun
 - Reusable test structure
 - Easy test execution
 
+---
+
 ## Folder Structure
 
 ```bash
@@ -30,7 +34,7 @@ BookYourCounselling/
 ├── playwright-report/     # HTML reports
 ├── test-results/          # Test execution results
 ├── node_modules/          # Dependencies
-├── playwright.config.ts   # Playwright configuration
+├── playwright.config.js   # Playwright configuration
 ├── package.json           # Project dependencies
 └── README.md              # Project documentation
 ```
@@ -75,7 +79,7 @@ npx playwright test --headed
 
 ### Run Specific Test File
 ```bash
-npx playwright test tests/example.spec.ts
+npx playwright test tests/example.spec.js
 ```
 
 ### Open HTML Report
