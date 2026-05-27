@@ -12,7 +12,7 @@ This project contains End-to-End (E2E) automation testing for the Book Your Coun
 
 ### Tech Stack Used
 - Playwright
-  - Git
+- Git
 - GitHub
 
 ### Main Features
