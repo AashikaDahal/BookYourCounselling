@@ -12,8 +12,7 @@ This project contains End-to-End (E2E) automation testing for the Book Your Coun
 
 ### Tech Stack Used
 - Playwright
-- Node.js
-- Git
+  - Git
 - GitHub
 
 ### Main Features
